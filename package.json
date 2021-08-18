@@ -1,0 +1,31 @@
+{
+  "name": "windsor-case-count",
+  "version": "1.0.0",
+  "description": "Discord bot to grab Windsor new and active cases",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "node-fetch": "^2.6.1",
+    "node-windows": "^1.0.0-beta.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ru-Two/windsor-case-count-discord-bot.git"
+  },
+  "keywords": [
+    "discord-bot",
+    "covid-cases"
+  ],
+  "author": "Ruturaj Darji",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ru-Two/windsor-case-count-discord-bot/issues"
+  },
+  "homepage": "https://github.com/Ru-Two/windsor-case-count-discord-bot#readme"
+}
